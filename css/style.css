@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+.source-serif-pro{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+/* Text colors */
+
+.white{
+    color: #ffffff;
+}
+
+.purple{
+    color: #171635;
+}
+
+.light-purple{
+    color: #736DF3;
+}
+
+.black{
+    color: #000000;
+}
+
+.green{
+    color: #15C9A4;
+}
+
+.yellow{
+    color:#FAD357;
+}
+
+/* Text colors */
+
+/* Background colors */
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.bg-purple{
+    background-color: #171635;
+}
+
+.bg-light-purple{
+    background-color: #736DF3;
+}
+.bg-lightest-purple{
+    background-color: rgba(115,109,243,0.1);
+}
+
+.bg-black{
+    background-color: #000000;
+}
+
+.bg-green{
+    background-color: #15C9A4;
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+/* Background colors */
+
+/* Spacing */
+
+.m-0{
+    margin: 0;
+}
+
+.mt-10{
+    margin-top:10px;
+}
+
+.mt-20{
+    margin-top:20px;
+}
+
+.mt-30{
+    margin-top:30px;
+}
+
+.mt-40{
+    margin-top:40px;
+}
+
+.mt-50{
+    margin-top:50px;
+}
+
+.p-0{
+    padding: 0;
+}
+.px-20{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.py-60{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.pt-40{
+    padding-top:40px;
+}
+.pb-40{
+    padding-bottom:40px;
+}
+/* Spacing */
+.f-20{
+    font-size: 20px;
+    line-height: 150%;
+}
+/* font */
+.f-18{
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.f-20{
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.f-24{
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.f-28{
+    font-size: 28px;
+    line-height: 150%;
+}
+
+.f-32{
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.f-38{
+    font-size: 38px;
+    line-height: 120%;
+}
+
+/* font */
+
+/*  */
+.ri-underline-yellow{
+    text-decoration: underline;
+    text-decoration-color: #FAD357;
+    -webkit-text-decoration-color: #FAD357;
+}
+
+.ri-underline-green{
+    text-decoration: underline;
+    text-decoration-color: #15C9A4;
+    -webkit-text-decoration-color: #15C9A4;
+}
+
+.ri-underline-light-purple{
+    text-decoration: underline;
+    text-decoration-color: #736DF3;
+    -webkit-text-decoration-color: #736DF3;
+}
+
+.modal-dialog-bottom {
+    display: flex;
+    align-items: end;
+    min-height: calc(100% - var(--bs-modal-margin) * 2);
+}
+/*  */
